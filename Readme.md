@@ -4,7 +4,7 @@ Repositório com foco na criação de um projeto para treino de uma WEB APP em p
 A aplicação consiste em uma loja de produtos voltados para o public geek.
 
 Linguagens utilizadas:
-C#, CSHTML, JS... (PREENCHER DEPOIS)
+C#, CSHTML, JS
 
 Frameworks:
 Entity Framework Core 2.1.14
