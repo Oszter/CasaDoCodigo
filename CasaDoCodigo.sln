@@ -104,6 +104,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto", "Projeto", "{6474456B-3094-4366-B537-73466B93B359}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto1", "Projeto1", "{BC06BC52-4BE8-44D8-8062-6AC245BFF722}"
+	ProjectSection(SolutionItems) = preProject
+		_Recursos\dados\livros.json = _Recursos\dados\livros.json
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo", "Aulas\Aula1\CasaDoCodigo\CasaDoCodigo.csproj", "{178B613C-AD1F-4248-9312-E7D23D825D3D}"
 EndProject
