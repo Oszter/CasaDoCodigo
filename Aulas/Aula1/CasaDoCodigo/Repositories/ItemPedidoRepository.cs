@@ -8,7 +8,7 @@ namespace CasaDoCodigo.Repositories
 {
     public class ItemPedidoRepository : BaseRepository<ItemPedido>, IItemRepository
     {
-        public ItemPedidoRepository(ApplicationContext context) : base(context)
+        public ItemPedidoRepository(ApplicationContext contexto) : base(contexto)
         {
         }
     }

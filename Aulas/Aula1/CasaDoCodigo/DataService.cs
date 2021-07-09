@@ -14,9 +14,9 @@ namespace CasaDoCodigo
         private readonly ApplicationContext context;
         private readonly IProdutoRepository produtoRepository;
 
-        public DataService(ApplicationContext context, IProdutoRepository produtoRepository)
+        public DataService(ApplicationContext contexto, IProdutoRepository produtoRepository)
         {
-            this.context = context;
+            this.context = contexto;
             this.produtoRepository = produtoRepository;
         }
 

@@ -9,7 +9,7 @@ namespace CasaDoCodigo.Repositories
 {
     public class ProdutoRepository : BaseRepository<Produto>, IProdutoRepository
     {
-        public ProdutoRepository(ApplicationContext context) : base(context)
+        public ProdutoRepository(ApplicationContext contexto) : base(contexto)
         {
         }
 
@@ -27,7 +27,7 @@ namespace CasaDoCodigo.Repositories
                     dbSet.Add(new Produto(livro.Codigo, livro.Nome, livro.Preco));
                 }
             }
-            context.SaveChanges();
+            contexto.SaveChanges();
         }
     }
 }

@@ -1,6 +1,9 @@
-﻿namespace CasaDoCodigo.Repositories
+﻿using CasaDoCodigo.Models;
+
+namespace CasaDoCodigo.Repositories
 {
-    internal interface IPedidoRepository
+    public interface IPedidoRepository
     {
+        Pedido GetPedido();
     }
 }
